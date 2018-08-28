@@ -108,6 +108,7 @@ module.exports = function(grunt) {
 				src: [
 					'index.html',
 					'html-slides.html',
+					'css-slides.html',
 					'css/**',
 					'js/**',
 					'lib/**',
