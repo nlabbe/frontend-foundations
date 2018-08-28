@@ -1,0 +1,355 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Frontend Foundations</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Frontend Foundations</h1>
+					
+				</section>
+				<section>
+					<h2>HTML</h2>
+				</section>
+				<section>
+					<h3>Contents</h3>
+					<ul>
+						<li>Intro</li>
+						<li>What's HTML?</li>
+						<li>Elements and Tags</li>
+						<li>Attributes</li>
+						<li>Let's get started
+							<ul>
+								<li>What we need?</li>
+								<li>Create your first website</li>
+							</ul>
+						</li>
+						<li>More elements</li>
+						<li>References</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Intro</h3>
+					<ul>
+						<li>Anyone can make a website</li>
+						<li>It's simple and free and you already have all the software you need.</li>
+						<li>This tutorial starts from scratch and requires absolutely no prior knowledge of programming, but a little bit of HTML knowledge.</li>
+
+					</ul>
+				</section>
+				<section>
+					<h3>What's CSS?</h3>
+					<section>
+						<ul>
+							<li>CSS stands for Cascading Style Sheets</li>
+							<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+							<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+							<li>External stylesheets are stored in CSS files</li>
+						</ul>
+						
+						
+						
+						
+						<ul>
+						<li>HTML was invented in 1990 by a scientist called Tim Berners-Lee</li>
+						<li>The purpose was to make it easier for scientists at different universities to access and share research documents</li>
+					</ul>
+					</section>
+					<section>
+							<p>HTML is the Web’s core language for creating content for everyone to use anywhere.</p>
+							<p><i>www.w3.org</i></p>
+					</section>
+					<section>
+						<p>Hypertext Markup Language (HTML) is the standard <strong>markup language</strong> for creating web pages and web applications. </p>
+					</section>
+				</section>
+				<section>
+					<h3>Elements and Tags</h3>
+					<section>
+						<h4>What are elements?</h4>
+						<p>
+							Elements give structure to a HTML document and tell the browser how you want your website to be presented. Generally elements consist of a start tag, some content, and an end tag.
+						</p>
+					</section>
+					<section>
+						<h4>What are tags?</h4>
+						<p>
+							Tags are labels you use to mark up the beginning and end of an element.
+						</p>
+						<p>All tags have the same format: they begin with a less-than sign "<" and end with a greater-than sign ">"</p>
+					</section>
+					<section>
+						<h4>What are tags?</h4>
+						<pre><code class="html" data-trim contenteditable>
+						<p>There are two kinds of tags — opening tags
+						and closing tags. The only difference between 
+						an opening tag and a closing tag is the forward slash 
+						"/". You label content by putting it between an opening 
+						tag and a closing tag.</p>
+						</code></pre>
+					</section>
+					<section>
+						<h4>Examples</h4>
+						<pre><code class="html" data-trim contenteditable>
+						<h1>This is a heading</h1>
+						<h2>This is a subheading</h2>
+						</code></pre>
+						<h1>This is a heading</h1>
+						<h2>This is a subheading</h2>
+					</section>
+					<section>
+						<h4>Examples</h4>
+						<pre><code class="html" data-trim contenteditable>
+							<p>This text is <b>bold</b></p>
+							<p>This text is <strong>strong</strong></p>
+							<p>This text is <i>italic</i></p>
+							<p>This text is <em>emphasized</em></p>
+						</code></pre>
+							<p>This text is <b>bold</b></p>
+							<p>This text is <strong>strong</strong></p>
+							<p>This text is <i>italic</i></p>
+							<p>This text is <em>emphasized</em></p>
+					</section>
+					<section>
+						<h4>Examples</h4>
+						<pre><code class="html" data-trim contenteditable>
+							<h2>HTML <small>Small</small> Formatting</h2>
+							<h2>HTML <mark>Marked</mark> Formatting</h2>
+							<p>This is <sub>subscripted</sub> text.</p>
+							<p>This is <sup>superscripted</sup> text.</p>
+							
+						</code></pre>
+							<h2>HTML <small>Small</small> Formatting</h2>
+							<h2>HTML <mark>Marked</mark> Formatting</h2>
+							<p>This is <sub>subscripted</sub> text.</p>
+							<p>This is <sup>superscripted</sup> text.</p>
+					</section>
+					<section>
+						<h4>So, I always need an opening tag and a closing tag?</h4>
+						<p>There's an exception to every rule and in HTML the 
+						exception is that there are a few elements that both 
+						open and close in the same tag. These so-called void 
+						elements are not connected to a specific passage in 
+						the text but rather are isolated labels. For example, 
+						a line break creates an extra line between the last 
+						piece of text and the next piece of text</p>
+						<pre><code class="html" data-trim contenteditable>
+							<br>
+						</code></pre>
+					</section>
+					<section>
+						<a href="https://www.w3schools.com/html/html_elements.asp">More HTML elements</a>
+					</section>
+				</section>
+				<section>
+					<h3>Attributes</h3>
+					<section>
+						<h4>What's an attribute?</h4>
+						<p>Attributes provide additional information about HTML elements.</p>
+					</section>
+					<section>
+						<h4>What's an attribute?</h4>
+						<ul>
+							<li>All HTML elements can have attributes</li>
+							<li>Attributes provide additional information about an element</li>
+							<li>Attributes are always specified in the start tag</li>
+							<li>Attributes usually come in name/value pairs like: name="value"</li>
+						</ul>
+					</section>
+					<section>
+						<h4>The href Attribute</h4>
+						<pre><code class="html" data-trim contenteditable>
+							<a href="https://baconipsum.com">Bacon Ipsum</a>
+						</code></pre>
+						<a href="https://baconipsum.com">Bacon Ipsum</a>
+					</section>
+					<section>
+						<h4>The src Attribute</h4>
+						<pre><code class="html" data-trim contenteditable>
+						<img src="assets/ducksauce.png">
+						</code></pre>
+						<img src="assets/ducksauce.png" alt="ducksauce" width="200" height="200">
+					</section>
+					<section>
+						<h4>The width/height Attribute</h4>
+						<pre><code class="html" data-trim contenteditable>
+						<img src="assets/ducksauce.png" width="50" height="50">
+						</code></pre>
+						<img src="assets/ducksauce.png" width="50" height="50">
+					</section>
+					<section>
+						<h4>The alt Attribute</h4>
+						<pre><code class="html" data-trim contenteditable>
+						<img src="assets/ducksauce.png" alt="ducksauce">
+						</code></pre>
+						<img src="assets/ducksaucealt.png" alt="ducksauce" width="50" height="50">
+					</section>
+					<section data-background="#b5533c">
+						<h4>The style Attribute</h4>
+						<pre><code class="html" data-trim contenteditable>
+		<p style="color:red">Lorem ipsum dolor sit amet.</p>
+		<p style="color:#333333">Lorem ipsum dolor sit amet.</p>
+		<p style="color:rgb(250, 250, 90)">Lorem ipsum dolor sit amet.</p>
+						</code></pre>
+						<p style="color:red">Lorem ipsum dolor sit amet.</p>
+						<p style="color:#333333">Lorem ipsum dolor sit amet.</p>
+						<p style="color:rgb(250, 250, 90)">Lorem ipsum dolor sit amet.</p>
+					</section>
+					<section>
+						<a href="<a href="https://www.w3schools.com/html/html_attributes.asp">More HTML attributes</a>
+					</section>
+					
+				</section>
+				<section>
+					<h3>Let's get started</h3>
+					<section>
+						<h4>What we need?</h4>
+						<ul>
+							<li>Text Editor</li>
+						</ul>
+						<div>
+							<img src="assets/atom.png" alt="atom">
+							<img src="assets/brackets.jpeg" alt="brackets">
+							<img src="assets/emacs.png" alt="emacs">
+							<img src="assets/notepad++.jpeg" alt="notepad++">
+							<img src="assets/sublime.png" alt="sublime">
+							<img src="assets/textmate.jpeg" alt="textmate">
+							<img src="assets/vim.png" alt="vim">
+							<img src="assets/vscode.png" alt="vim">
+						</div>
+					</section>
+					<section>
+						<img src="assets/win-notepad.jpeg" alt="win-notepad">
+						<img src="assets/word.png" alt="word">
+					</section>
+					<section>
+						<h4>What we need?</h4>
+						<ul>
+							<li>Browser</li>
+						</ul>
+						<div>
+							<img src="assets/chrome.jpeg" alt="chrome">
+							<img src="assets/firefox.jpeg" alt="firefox">
+							<img src="assets/ie.png" alt="ie">
+							<img src="assets/safari.jpeg" alt="safari">
+							<img src="assets/opera.jpeg" alt="opera">
+						</div>
+					</section>
+				</section>
+				<section>
+					<h3>Let's get started</h3>
+					<h4>Creating your first website</h4>
+					<section>
+						<p>Browsers reads HTML like you: from the top down and from left to right.</p>
+					</section>
+					<section>
+						<p>1. Open your favorite text editor.</p>
+					</section>
+					<section>
+						<p>2. Copy code below into a new file</p>
+						<pre><code class="html" data-trim contenteditable>
+						    &lt;!DOCTYPE html&gt;
+						    &lt;html&gt;
+						        &lt;head&gt;
+						        	&lt;title&gt;Bazzinga - Home&lt;/title&gt;
+						        &lt;/head&gt;
+						        &lt;body&gt;
+						        	&lt;h1&gt;Bazzinga!&lt;/h1&gt;
+						        	&lt;p&gt;Lorem dolor sit amet!&lt;/p&gt;
+						        &lt;/body&gt;    
+						    &lt;/html&gt;
+						</code></pre>
+					</section>
+					<section>
+						<p>3. Save as "bazzinga.html"</p>
+					</section>
+					<section>
+						<p>4. Open "bazzinga.html" in your favorite browser</p>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+					<h2>pumbala!</h2>
+					</section>
+				</section>
+				<section>
+					<h3>More elements</h3>
+					<section>
+						<h4>Images</h4>
+					<pre><code class="html" data-trim contenteditable>
+<img src="assets/ducksauce.png" alt="ducksauce" width="200" height="200">
+						</code></pre>
+						<img src="assets/ducksauce.png" alt="ducksauce" width="200" height="200">
+					</section>
+					<section>
+					<pre><code class="html" data-trim contenteditable>
+						<button>Click me</button>
+					</code></pre>
+						<button>Click me</button>
+					</section>
+					<section>
+					<pre><code class="html" data-trim contenteditable>
+						<ul>
+						  <li>Espresso</li>
+						  <li>Flat White</li>
+						  <li>Cappuccino</li>
+						  <li>Latte</li>
+						  <li>Americano</li>
+						</ul>
+					</code></pre>
+						<ul>
+						  <li>Espresso</li>
+						  <li>Flat White</li>
+						  <li>Cappuccino</li>
+						  <li>Latte</li>
+						  <li>Americano</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h3>References</h3>
+					<ul>
+						<li><a href="https://www.w3schools.com/html/default.asp">w3school</a></li>
+						<li><a href="https://www.tutorialspoint.com/html/">tutorialspoint</a></li>
+						<li><a href="https://www.html.net">html.net</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
